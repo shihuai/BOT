@@ -1,0 +1,17 @@
+net: "examples/BOT/GoogLeNet_train_val.prototxt"
+test_iter: 1049
+test_interval: 100 
+test_initialization: false
+display: 100
+debug_info: false
+average_loss: 50
+base_lr: 0.001
+lr_policy: "step"
+stepsize: 4200
+gamma: 0.96
+max_iter: 84000
+momentum: 0.9
+weight_decay: 0.0002
+snapshot: 21000
+snapshot_prefix: "examples/BOT/BOT_googlenet_v6"
+solver_mode: GPU
